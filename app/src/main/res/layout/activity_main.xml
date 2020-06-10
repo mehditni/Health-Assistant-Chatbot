@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.ensias.chatbot.MainActivity">
+
+    <TextView
+        android:id="@+id/greeting_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bonjour,\n\nAvant de commencer, merci de vous inscrire."
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"> </TextView>
+
+    <EditText
+        android:id="@+id/activitymain_inputname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Merci d'entrer votre nom"
+        tools:ignore="MissingConstraints"> </EditText>
+    <EditText
+        android:id="@+id/activitymain_inputage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="phone"
+        android:hint="Merci d'entrer votre âge"
+        tools:ignore="MissingConstraints"> </EditText>
+    <Button
+        android:id="@+id/activitymain_button"
+        android:layout_gravity="center_horizontal"
+        android:text="Commencer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"> </Button>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"> </Button>
+
+
+</LinearLayout>
